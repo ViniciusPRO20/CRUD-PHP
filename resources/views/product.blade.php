@@ -1,9 +1,12 @@
 @extends('layouts.main')
 
-@section('title', 'produtos')
+@section('title', 'Produtos')
 
 @section('content')
 
-<h1>testando a pagina product</h1>
+    @if ($id != null)
+     <p>Exibindo produto id: {{$id}}</p>
+    @endif
+
 @endsection
 
