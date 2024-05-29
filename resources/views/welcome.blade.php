@@ -1,15 +1,11 @@
 @extends('layouts.main')
 
 @section('title'. 'Vinicius Events')
+@section('content')
 
-<h1>teste</h1>
+@foreach ($events as $event)
+    <p>{{$event->title}} -- {{$event->description}}</p>
 
-@if (10 > 5)
-<p>A condição é true</p>
-@endif
-@if ($nome == 'Vinicius')
-<p>que nome bonito</p>
-@endif
-<p>{{$nome}}</p>
+@endforeach
 
 @endsection
