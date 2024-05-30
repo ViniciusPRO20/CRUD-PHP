@@ -10,7 +10,7 @@
         @csrf
         <div class="form-group">
             <label for="image">Imagem do evento:</label>
-            <input type="file" id="image"  name="image" class="form-control-file">
+            <input type="file" id="image"  name="image" class="form-control-file" required>
         </div>
         <div class="form-group">
             <label for="title">Evento:</label>
@@ -18,11 +18,11 @@
         </div>
         <div class="form-group">
             <label for="date">Data do evento:</label>
-            <input type="date" class="form-control" id="date" name="date">
+            <input type="date" class="form-control" id="date" name="date" required>
         </div>
         <div class="form-group">
             <label for="title">Cidade:</label>
-            <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento">
+            <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento" required>
         </div>
         <div class="form-group">
             <label for="title">O evento é privado?</label>
@@ -33,7 +33,7 @@
         </div>
         <div class="form-group">
             <label for="title">Descrição</label>
-            <textarea class="form-control" name="description" id="description" placeholder="Descreva o evento..."></textarea>
+            <textarea class="form-control" name="description" id="description" placeholder="Descreva o evento..." required></textarea>
         </div>
         <div class="form-group">
             <label for="title">Adicione itens:</label>
