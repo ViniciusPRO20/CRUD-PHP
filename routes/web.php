@@ -18,3 +18,4 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::post('/events/join{id}',[EventController::class, 'joinEvent'])->middleware('auth');
