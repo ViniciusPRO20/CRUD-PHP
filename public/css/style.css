@@ -20,6 +20,7 @@ header {
 .btn-primary {
     background-color: #f2a340;
     border: 2px solid #c28008;
+    margin-top: 10px;
 }
 
 .btn-primary:hover {
@@ -149,4 +150,40 @@ footer p {
     width: 100%;
     text-align: center;
     padding: 10px;
+}
+
+#image-container, 
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin: 5px;
+}
+
+#info-container {
+    margin: 20px 0;
 }
