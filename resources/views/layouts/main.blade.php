@@ -12,7 +12,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
+                    <a href="/" class="navbar-brand" style="margin-left: 10px; font-weight: bold;">
                         HDC EVENTS
                     </a>
                     <ul class="navbar-nav">
