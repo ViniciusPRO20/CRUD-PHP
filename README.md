@@ -9,6 +9,8 @@
 
 # Sobre o projeto
 
+#### Crud com upload de imagens e criação de usuario através da biblioteca jetstream, podendo registrar usuario e cadastrar eventos.
+
 [projeto video](https://github.com/ViniciusPRO20/estudos-php/assets/115045547/8c8d92a1-bb8d-4d25-8d95-effcd1cc8441)
 
 [projeto video](https://github.com/ViniciusPRO20/estudos-php/assets/115045547/96855562-e05e-4884-b65c-1bbf99694f60)
